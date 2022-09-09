@@ -1,12 +1,14 @@
 .todo {
 	display: flex;
 	padding: 10px 15px;
-	background-color: #FFF;
-	border-bottom: 1px solid #DDD;
+	background-color: var(--additional-background-color);;
+	border-bottom: 1px solid #000;
+	color: var(--text-color);
+	font-family: Poppins, sans-serif;
 }
 
 .todo:nth-child(even) {
-	background-color: #EEE;
+	background-color: var(--background-color);
 }
 
 .todo:last-of-type {
@@ -31,7 +33,7 @@
 	padding: 10px 15px;
 	appearance: none;
 	border: none;
-	background-color: #F3F3F3;
+	background-color: var(--background-color);
 	margin-top: 15px;
 	font-size: 20px;
 	outline: none;
@@ -47,10 +49,19 @@
 	background: none;
 
 	background-color: var(--background-color);
-	color: #FFF;
+	color: var(--text-ui-brand-color);
 	margin: 15px auto;
 
 	padding: 10px 15px;
 	font-size: 18px;    
 	font-weight: 700;
+}
+
+.todo button {
+	align-items: center;
+    margin: 0;
+    padding: 10px;
+    border: var(--text-ui-brand-color);
+    background-color: var(--text-ui-brand-color);
+	font-family: Poppins, sans-serif;
 }

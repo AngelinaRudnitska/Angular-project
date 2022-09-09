@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { TodoItemComponent } from './todo-item/todo-item.component';
+import { ScheduleComponent } from './schedule/schedule.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { TodoItemComponent } from './todo-item/todo-item.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    TodoItemComponent
+    TodoItemComponent,
+    ScheduleComponent
   ],
   imports: [
     BrowserModule,

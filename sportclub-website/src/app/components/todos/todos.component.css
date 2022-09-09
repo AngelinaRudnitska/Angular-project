@@ -1,13 +1,13 @@
-.todo {
+/* .todo {
 	display: flex;
 	padding: 10px 15px;
-	background-color: #FFF;
-	border-bottom: 1px solid #DDD;
+	background-color: var(--background-modal-color);
+	border-bottom: 1px solid #000;
 }
 
 .todo:nth-child(even) {
-	background-color: #EEE;
-}
+	background-color: var(--additional-background-color);
+} */
 
 .todo:last-of-type {
 	border-bottom: 0;
@@ -31,7 +31,7 @@
 	padding: 10px 15px;
 	appearance: none;
 	border: none;
-	background-color: #F3F3F3;
+	background-color: var(--additional-background-color);
 	margin-top: 15px;
 	font-size: 20px;
 	outline: none;
@@ -47,7 +47,7 @@
 	background: none;
 
 	background-color: var(--background-color);
-	color: #FFF;
+	color: var(--additional-text-color);
 	margin: 15px auto;
 
 	padding: 10px 15px;

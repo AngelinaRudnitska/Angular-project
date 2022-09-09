@@ -111,9 +111,9 @@ h1 {
     font-family: Poppins, sans-serif;
     display: flex;
     font-weight: 700;
-    text-align: left;
+    text-align: center;
     cursor: pointer;
-    width: 190px;
+    width: 145px;
     height: 20px;
     top: 20px;
     align-items: center;

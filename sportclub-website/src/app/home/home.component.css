@@ -1,0 +1,62 @@
+.header {
+    background-image: url(/assets/img/header-bg.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    margin: -100px 0 0 0;
+    height: 600px;
+}
+
+.header__introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    min-width: 300px;
+    max-width: 420px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 17px;
+    line-height: 1;
+    margin-left: 20px;
+    padding-top: 290px;
+}
+
+.header__introduction button {
+    margin-top: 40px;
+}
+
+.header__introduction-h2 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--ui-light-accent-color);
+    font-size: 19px;
+    margin-top: 30px;
+}
+
+.header__introduction-word {
+    color: var(--text-ui-brand-color);
+    font-family: 'Kanit', sans-serif;
+}
+
+.header__text-button {
+    font-size: 17px;
+    font-family: Poppins, sans-serif;
+    display: flex;
+    font-weight: 700;
+    text-align: left;
+    cursor: pointer;
+    width: 190px;
+    height: 20px;
+    top: 20px;
+    align-items: center;
+    margin: 0;
+    padding: 25px 30px 25px 30px;
+    border: #d6fb00;
+    background-color: #d6fb00;
+}
+
+.header__text-button {
+    transition-duration: .5s;
+}
+
+.header__text-button:hover {
+    background-color: #fff;
+    color: black;
+}
