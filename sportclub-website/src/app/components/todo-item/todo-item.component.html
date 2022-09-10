@@ -1,0 +1,6 @@
+<div class="todo {{ (todo.completed ? 'done' : '') }}">
+    <div class="id">{{ index }}</div>
+    <div class="content" (click)="toggleDone()">{{ todo.content }}</div>
+    <div *ngIf="completed; else delete" class="completed-date">{{todo.completedDate|date: 'medium'}}</div>
+    <ng-template #delete><button class="delete" (click)="deleteTodo()">Remove</button></ng-template>
+</div>
